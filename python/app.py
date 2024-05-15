@@ -1,6 +1,8 @@
-def this_trail( int x, int y):
-    sum=x+y
-   return sum
-x=input(int ("enter the first   numbers"))
-y=intput(int("enter the second number "))
-this_trail=(x,y)
+def this_trail(x, y):
+    sum = x + y
+    return sum
+
+x = int(input("Enter the first number: "))
+y = int(input("Enter the second number: "))
+result = this_trail(x, y)
+print(result)
